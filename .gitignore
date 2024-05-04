@@ -70,3 +70,16 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Exclude all node_modules folders
+node_modules/
+
+# Exclude all log files
+*.log
+
+# MacOS specific files that should not be tracked by Git
+.DS_Store
+
+# Thumbnails cache for MacOS
+._*
+
